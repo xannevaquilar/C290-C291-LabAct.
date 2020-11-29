@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#CCE5FF"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/name"
+        android:layout_marginTop="20dp"
+        android:hint="Enter name"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/contact"
+        android:layout_marginTop="20dp"
+        android:hint="Enter contact number"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/idnum"
+        android:layout_marginTop="20dp"
+        android:hint="Enter ID number"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/address"
+        android:layout_marginTop="20dp"
+        android:hint="Enter address"
+        android:textSize="20sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/btnAdd"
+        android:layout_marginTop="30dp"
+        android:text="ADD"
+        android:textSize="20sp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/btnUpdate"
+        android:layout_marginTop="5dp"
+        android:text="UPDATE"
+        android:textSize="20sp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/btnDelete"
+        android:layout_marginTop="5dp"
+        android:text="DELETE"
+        android:textSize="20sp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/btnView"
+        android:layout_marginTop="5dp"
+        android:text="View List"
+        android:textSize="20sp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
